@@ -1,0 +1,37 @@
+<html>
+<head>
+</head>
+<body>
+</body>
+<script>
+var arr = [10,21,23,11,2,1];
+for(var i=0;i<arr.length;i++){
+    console.log('The value is ',arr[i]);
+}
+
+//sum of all elements
+var sum = 0;
+for(var i=0;i<arr.length;i++){
+    sum = sum+arr[i];
+}
+console.log('The final sum is ',sum);
+
+var p = 1;
+for(var i=0;i<arr.length;i++){
+    p = p*arr[i];
+}
+console.log('The final product is ',p);
+
+p=1;
+//product of all even numbers inside array
+for(var i=0;i<arr.length;i++){
+    if(arr[i]%2==0){
+        p = p*arr[i];
+    }
+}
+console.log('The final product of even numbers is ',p);
+
+//sum of all digits of a number
+
+</script>
+</html>

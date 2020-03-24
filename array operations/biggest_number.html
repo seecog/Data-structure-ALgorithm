@@ -1,0 +1,24 @@
+<html>
+<head>
+</head>
+<body>
+</body>
+<script>
+    /*
+greatest number
+    */
+    var arr = [1,2,89,90,5,46,100,5];
+    var max;
+    for(var i=0;i<arr.length;i++){
+        if(i==0){
+            max = arr[i];
+        }
+        else{
+            if(arr[i]>max){
+                max = arr[i];//2,89,90,100
+            }
+        }
+    }
+    console.log('Max is ',max);
+</script>
+</html>
